@@ -7,12 +7,17 @@
 ### Triple dots (...)
 
 Means "all" in array
-`const foo = ['a', 'b', 'c'] console.log(...foo) triple dots returns "a" "b" "c"`
+`const foo = ['a', 'b', 'c']
+console.log(...foo) 
+//triple dots returns "a" "b" "c"`
 
 ### Static properties
 
 _Static properties_ exist directly on the class (cant be changed). Can call it like:
-`class Foo { static bar = 'hello' } console.log(Foo.bar) gives "hello"`
+`class Foo { 
+  static bar = 'hello' 
+ } 
+ console.log(Foo.bar)  // gives "hello"`
 
 ### Class Properties
 
